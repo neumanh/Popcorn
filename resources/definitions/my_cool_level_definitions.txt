@@ -1,0 +1,44 @@
+
+# Level 1
+# Image Background and few blocks
+
+START_LEVEL
+level_name:My kids Likes Tanki
+ball_velocities:70,500 -70,500
+background:image(background_images/tanki1.png)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/tanki_1_definitions.txt
+blocks_start_x:250
+blocks_start_y:150
+row_height:100
+num_blocks:7
+START_BLOCKS
+---t--t--t---
+--k--k--k--k--
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Image Background and few more blocks
+
+START_LEVEL
+level_name:Especially likes rugbi
+ball_velocities:70,400 -70,400 100,400 -100,400
+background:image(background_images/tanki2.png)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/tanki_2_definitions.txt
+blocks_start_x:50
+blocks_start_y:200
+row_height:50
+num_blocks:42
+START_BLOCKS
+-k-k-k-k-k-k-k-k-k-k-
+t-t-t-t-t-t-t-t-t-t-t
+-k-k-k-k-k-k-k-k-k-k-
+t-t-t-t-t-t-t-t-t-t-t
+END_BLOCKS
+END_LEVEL
+

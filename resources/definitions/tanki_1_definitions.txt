@@ -1,0 +1,7 @@
+# block definitions
+bdef symbol:t width:50 height:50 hit_points:3 fill-3:color(red) fill-2:color(green) fill-1:color(blue)
+bdef symbol:k width:50 height:50 hit_points:1 fill-1:color(yellow)
+
+
+# spacers definitions
+sdef symbol:- width:20
